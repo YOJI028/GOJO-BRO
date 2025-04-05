@@ -1,1 +1,140 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #1f2937;
+}
+
+/* Header */
+#f {
+  background-color: white;
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#s,
+ul {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://nybreezypoint.com/wp-content/uploads/2023/01/Swimming-Icon.jpg');
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2a5298;
+}
+
+/* Navigation */
+ul li {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #2a5298;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+ul li:hover {
+  color: #1d4ed8;
+}
+
+/* Hero Section */
+#fo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://lirp.cdn-website.com/9a09af49/dms3rep/multi/opt/pool+tile-1920w.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#fi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fi h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#fi p {
+  font-size: 20px;
+  color: #e0f2fe;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #34d399;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #059669;
+}
+
+/* Footer Section */
+#si {
+  background-color: #111827;
+  color: #f3f4f6;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+#se {
+  display: flex;
+  gap: 80px;
+}
+
+#se div h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#se div p {
+  font-size: 15px;
+  margin: 4px 0;
+  color: #d1d5db;
+}
